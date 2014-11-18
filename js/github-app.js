@@ -22,7 +22,6 @@ angular.module('GitHubApp', [])
                 })
                 .error(function(err) {
                     // err will contain error information
-                    console.log(err);
                 });
         };
     });
